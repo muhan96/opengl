@@ -1,0 +1,17 @@
+package com.starnet.ftc.opengl;
+
+import android.opengl.GLSurfaceView;
+import android.support.annotation.Nullable;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        GLSurfaceView glSurfaceView = new GLSurfaceView(this);
+        glSurfaceView.setRenderer(new MyGLRenderer());
+        setContentView(glSurfaceView);
+    }
+}
