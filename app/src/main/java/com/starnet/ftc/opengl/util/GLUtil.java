@@ -63,4 +63,7 @@ public class GLUtil {
         mBuffer.position(0);
         return mBuffer;
     }
+
+    public static int getOESTextureId() {
+    }
 }
