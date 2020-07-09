@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/muhan/AndroidStudioProjects/opengl/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "/home/muhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/d329542e2fa9155af432389736aec6a1/res/values-v18/values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}
